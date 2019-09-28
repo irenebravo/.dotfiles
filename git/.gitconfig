@@ -3,3 +3,15 @@
 	name = irenebravo
 [push]
 	default = simple
+
+# autocorrect entries
+[help]
+	autocorrect = 1
+
+# be nice on pulls
+[pull]
+	rebase = true
+
+# rebase when pulling
+[rebase]
+	autoStash = true
